@@ -4,7 +4,7 @@ let conexao = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "password",
-  database: "",
+  database: "petshop",
 });
 
 module.exports = conexao;

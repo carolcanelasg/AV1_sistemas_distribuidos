@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criar Banco de Dados</title>
+  </head>
+  <body>
+    <h1>Criação de Banco de Dados</h1>
+
+    <form
+      action="http://localhost:3000/criarBD"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <fieldset>
+        <legend>Database</legend>
+        <p>
+          <label for="nome">Nome da Base: </label><br />
+          <input type="text" id="nome" name="nome" size="30" autofocus />
+        </p>
+        <p><input type="submit" value="Criar" /></p>
+      </fieldset>
+    </form>
+  </body>
+</html>
