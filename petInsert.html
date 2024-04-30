@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Pets</title>
+    </head>
+
+    <body>
+        <h1>Cadastro de Pets</h1>
+
+        <form action="petInsert" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Novo Pet</legend>
+
+                <p><label for="nome">Nome do pet:</label><br>
+                    <input type="text" id="nome" name="nome" size="30" autofocus>
+                </p>
+
+                <p><label for="idade">Idade:</label><br>
+                    <input type="text" id="idade" name="idade">
+                </p>
+
+                <p><label for="raca">Raça:</label><br>
+                    <input type="text" id="raca" name="raca">
+                </p>
+
+                <p><label for="nomeResponsavel">Nome do responsável:</label><br>
+                    <input type="text" id="nomeResponsavel" name="nomeResponsavel">
+                </p>
+
+                <hr>
+
+                <p><input type="submit" value="Cadastrar"></p>
+            </fieldset>
+        </form>
+    </body>
+</html>

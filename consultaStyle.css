@@ -1,0 +1,9 @@
+.tabela, th, td{
+    border-collapse: collapse; /*define a separação entre as bordar*/
+    padding: 10px;
+    text-align: left;
+    border-width: 3px solid black;
+}
+th{
+    background-color: green;
+}
